@@ -1,0 +1,25 @@
+
+ ==================== Content of the project ==========================
+
+ 1 . Import all libraries 
+ 2 . Create the tkt window and set the appearance	
+ 3 . Open a new excel file with python coding 
+ 4 . making excel table headings 
+ 5 . Create a reset button 
+ 6 . Counting with a button       
+ 7 . How to get data from entries
+ 8 . Getting the data from check box 
+ 9 . error message if not complete the check boxes data       
+ 11 . error message for the combo box 
+ 12 . submit all data to excell file 
+ 13 . adding data row by row in excel file  
+ 14 . creating frame 
+ 17 . Make new frame to insert the entries 
+ 18 . Create entry with auto counting and with reset button 
+ 19 . Creating the date of registered entry with day auto updating 
+ 22 . select the birth entry with a calander 
+ 23 . Select gender with radio buttons 
+ 25 . Select the education level with check box
+ 26 . Select the course with combo-box
+ 27 . terms & condition with check box
+ 28 . Submit button
