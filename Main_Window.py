@@ -34,15 +34,10 @@ else :
     
     file.save("Register.xlsx")
 
-
-# ================================= coding for admition number reset ================================= #
-counting = 0
-
-    
-  
+# =================== Admition number counting with clicking the submit button ======================= #  
+counting = 0  
 def submit() :
-
-    # =================== Admition number counting with clicking the submit button ======================= #          
+        
     global counting
     counting += 1
     admition.set(f'GCE/OL/2023{counting}')
@@ -117,6 +112,7 @@ admition_num.grid(row = 0, column = 0 , pady = (20,10), padx = 10)
 admition = ctk.StringVar()
 admition_entry =ctk.CTkLabel(first_farme, textvariable= admition , width = 170,bg_color='#222222',corner_radius=12)
 
+# ================================= coding for admition number reset ================================= #
 def reset() :
 
     global counting
@@ -128,7 +124,6 @@ admition_entry.grid(row = 1, column = 0, padx = 20, sticky = 'w')
 
 reset_btn = ctk.CTkButton(first_farme, width= 28,height=26, text= 'R', border_width=1, fg_color='#222222',command = reset)
 reset_btn.place(x = 192, y = 69)
-
 
 # ======================= Creating the date of registered entry with day auto updating ================= #
 today = date.today()
